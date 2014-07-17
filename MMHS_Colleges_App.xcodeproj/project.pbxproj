@@ -12,6 +12,8 @@
 		93DE670619774A7F006AD9F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93DE670419774A7F006AD9F4 /* Main.storyboard */; };
 		93DE670819774A7F006AD9F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93DE670719774A7F006AD9F4 /* Images.xcassets */; };
 		93DE671419774A7F006AD9F4 /* MMHS_Colleges_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DE671319774A7F006AD9F4 /* MMHS_Colleges_AppTests.swift */; };
+		93DE672019774D53006AD9F4 /* College.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DE671F19774D53006AD9F4 /* College.swift */; };
+		93DE672219775642006AD9F4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DE672119775642006AD9F4 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		93DE670D19774A7F006AD9F4 /* MMHS_Colleges_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMHS_Colleges_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93DE671219774A7F006AD9F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93DE671319774A7F006AD9F4 /* MMHS_Colleges_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMHS_Colleges_AppTests.swift; sourceTree = "<group>"; };
+		93DE671F19774D53006AD9F4 /* College.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = College.swift; path = ../College.swift; sourceTree = "<group>"; };
+		93DE672119775642006AD9F4 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				93DE670019774A7F006AD9F4 /* AppDelegate.swift */,
+				93DE671F19774D53006AD9F4 /* College.swift */,
 				93DE670219774A7F006AD9F4 /* ViewController.swift */,
+				93DE672119775642006AD9F4 /* DetailViewController.swift */,
 				93DE670419774A7F006AD9F4 /* Main.storyboard */,
 				93DE670719774A7F006AD9F4 /* Images.xcassets */,
 				93DE66FE19774A7F006AD9F4 /* Supporting Files */,
@@ -210,6 +216,8 @@
 			files = (
 				93DE670319774A7F006AD9F4 /* ViewController.swift in Sources */,
 				93DE670119774A7F006AD9F4 /* AppDelegate.swift in Sources */,
+				93DE672019774D53006AD9F4 /* College.swift in Sources */,
+				93DE672219775642006AD9F4 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
