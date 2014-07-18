@@ -41,6 +41,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
         cell.detailTextLabel.text = "Population: \(collegesArray[indexPath.row].numberOfStudents)"
 
+        cell.imageView.image = collegesArray[indexPath.row].logoImage
+
         return cell
     }
 
