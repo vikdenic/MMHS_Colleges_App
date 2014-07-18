@@ -39,6 +39,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
         cell.textLabel.text = collegesArray[indexPath.row].name
 
+        cell.detailTextLabel.text = "Population: \(collegesArray[indexPath.row].numberOfStudents)"
+
         return cell
     }
 
